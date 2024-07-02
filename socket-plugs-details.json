@@ -100,6 +100,13 @@
       "WETH": "0x2b42AFFD4b7C14d9B7C2579229495c052672Ccd3",
       "ETH": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
       "WBTC": "0xfC5CC93d85861ac82d89fc2D3e56315540E9C8A7"
+    },
+    "89346162": {
+      "USDC": "0xfA27c7c6051344263533cc365274d9569b0272A8",
+      "USDT": "0x5fB20B8821cCE1A13Caaae4Dd740912848cf3590",
+      "DAI": "0x2102aEd8a8f6283302042455F6dd810815370176",
+      "WETH": "0x2CF56315ACC7E791B1A0135c09d8D5C8dBCD2F14",
+      "WBTC": "0x459374F3f3E92728bCa838DfA8C95E706FE67E8a"
     }
   },
   "tokenSymbols": {
@@ -141,7 +148,8 @@
     "adg_mainnet",
     "aavegotchi_mainnet",
     "timeswap_test_mainnet",
-    "testing_testnet"
+    "testing_testnet",
+    "reya_cronos_testnet"
   ],
   "tokens": [
     "MOON",

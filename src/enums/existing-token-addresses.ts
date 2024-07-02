@@ -86,4 +86,11 @@ export const ExistingTokenAddresses: {
     [Tokens.ETH]: "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
     [Tokens.WBTC]: "0xfC5CC93d85861ac82d89fc2D3e56315540E9C8A7",
   },
+  [ChainSlug.REYA_CRONOS]: {
+    [Tokens.USDC]: "0xfA27c7c6051344263533cc365274d9569b0272A8",
+    [Tokens.USDT]: "0x5fB20B8821cCE1A13Caaae4Dd740912848cf3590",
+    [Tokens.DAI]: "0x2102aEd8a8f6283302042455F6dd810815370176",
+    [Tokens.WETH]: "0x2CF56315ACC7E791B1A0135c09d8D5C8dBCD2F14",
+    [Tokens.WBTC]: "0x459374F3f3E92728bCa838DfA8C95E706FE67E8a",
+  }
 };
