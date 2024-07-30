@@ -1,6 +1,43 @@
 {
   "421614": [
     [
+      "0x2b1209A86E66f0eB711A1817FAce618362A30578",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0x0103e7178fbD43f479493fC41b662b61BdDd6fF1",
+        "0xEA59E2b1539b514290dD3dCEa989Ea36279aC6F2",
+        89346162
+      ]
+    ],
+    [
+      "0xEA4296724399b9095741577C89E6a73e95B3af9d",
+      "LimitExecutionHook",
+      "contracts/hooks/LimitExecutionHook.sol",
+      [
+        "0xaE173a960084903b1d278Ff9E3A81DeD82275556",
+        "0x0103e7178fbD43f479493fC41b662b61BdDd6fF1",
+        "0x41154a225C91af0A9010Eb3b88fbFE371711386e",
+        false
+      ]
+    ],
+    [
+      "0x41154a225C91af0A9010Eb3b88fbFE371711386e",
+      "ExecutionHelper",
+      "contracts/hooks/plugins/ExecutionHelper.sol",
+      [
+        "0xaE173a960084903b1d278Ff9E3A81DeD82275556"
+      ]
+    ],
+    [
+      "0x0103e7178fbD43f479493fC41b662b61BdDd6fF1",
+      "Vault",
+      "contracts/bridge/Vault.sol",
+      [
+        "0xDF52410A19298FE168c900513e762adaD00C42b1"
+      ]
+    ],
+    [
       "0x368e04Bf42E57b30A26628EF2118f397a55705A4",
       "ConnectorPlug",
       "contracts/ConnectorPlug.sol",
@@ -375,6 +412,43 @@
   ],
   "11155420": [
     [
+      "0x1607b61d42124B422C337d1f8916331fC78c9Fe0",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0x51b9eC145597b5A78b1d1DFC83B10ff2BdbB09FB",
+        "0xEA59E2b1539b514290dD3dCEa989Ea36279aC6F2",
+        89346162
+      ]
+    ],
+    [
+      "0xa9f2Be5100C14A5404D84f36E8f89a267F2d2328",
+      "LimitExecutionHook",
+      "contracts/hooks/LimitExecutionHook.sol",
+      [
+        "0xaE173a960084903b1d278Ff9E3A81DeD82275556",
+        "0x51b9eC145597b5A78b1d1DFC83B10ff2BdbB09FB",
+        "0xDC56d1C14357C17a81ea3Ae5Be24f9A5C1123151",
+        false
+      ]
+    ],
+    [
+      "0xDC56d1C14357C17a81ea3Ae5Be24f9A5C1123151",
+      "ExecutionHelper",
+      "contracts/hooks/plugins/ExecutionHelper.sol",
+      [
+        "0xaE173a960084903b1d278Ff9E3A81DeD82275556"
+      ]
+    ],
+    [
+      "0x51b9eC145597b5A78b1d1DFC83B10ff2BdbB09FB",
+      "Vault",
+      "contracts/bridge/Vault.sol",
+      [
+        "0xDF52410A19298FE168c900513e762adaD00C42b1"
+      ]
+    ],
+    [
       "0x3B089835930D49D277f98304e4090ff72743c426",
       "ConnectorPlug",
       "contracts/ConnectorPlug.sol",
@@ -561,6 +635,53 @@
     ]
   ],
   "89346162": [
+    [
+      "0x5BD8C70073575F30E060c4751672A3d462CdAc8a",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0x7C43B88F6AefFD221816436357FB1510c62EF513",
+        "0xc317144DE60E6bC9455363bB09852C00bd14CD61",
+        11155420
+      ]
+    ],
+    [
+      "0x424a422558986C95a8E0E578e4443Afe5358c238",
+      "ConnectorPlug",
+      "contracts/ConnectorPlug.sol",
+      [
+        "0x7C43B88F6AefFD221816436357FB1510c62EF513",
+        "0xc317144DE60E6bC9455363bB09852C00bd14CD61",
+        421614
+      ]
+    ],
+    [
+      "0xFCb43776108Be3f51A62099885e1E37b0F507135",
+      "LimitExecutionHook",
+      "contracts/hooks/LimitExecutionHook.sol",
+      [
+        "0xaE173a960084903b1d278Ff9E3A81DeD82275556",
+        "0x7C43B88F6AefFD221816436357FB1510c62EF513",
+        "0xA2687d5ff962eF398965680D0200831c484d2C3C",
+        true
+      ]
+    ],
+    [
+      "0xA2687d5ff962eF398965680D0200831c484d2C3C",
+      "ExecutionHelper",
+      "contracts/hooks/plugins/ExecutionHelper.sol",
+      [
+        "0xaE173a960084903b1d278Ff9E3A81DeD82275556"
+      ]
+    ],
+    [
+      "0x7C43B88F6AefFD221816436357FB1510c62EF513",
+      "Controller",
+      "contracts/bridge/Controller.sol",
+      [
+        "0xDF52410A19298FE168c900513e762adaD00C42b1"
+      ]
+    ],
     [
       "0x483c5adD1118f16EFcd64D9Aa8428f6bA232f87a",
       "ConnectorPlug",
