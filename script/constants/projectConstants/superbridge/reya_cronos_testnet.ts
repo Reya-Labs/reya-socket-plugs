@@ -10,7 +10,7 @@ import { Tokens } from "../../../../src/enums";
 export const pc: ProjectConstants = {
     [DeploymentMode.PROD]: {
   [Tokens.USDC]: {
-    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA],
+    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA, ChainSlug.SEPOLIA],
     controllerChains: [ChainSlug.REYA_CRONOS],
     hook: {
       hookType: Hooks.LIMIT_EXECUTION_HOOK,
@@ -43,7 +43,7 @@ export const pc: ProjectConstants = {
     }
   },
   [Tokens.WETH]: {
-    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA],
+    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA, ChainSlug.SEPOLIA],
     controllerChains: [ChainSlug.REYA_CRONOS],
     hook: {
       hookType: Hooks.LIMIT_EXECUTION_HOOK,
@@ -76,7 +76,7 @@ export const pc: ProjectConstants = {
     }
   },
   [Tokens.WBTC]: {
-    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA],
+    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA, ChainSlug.SEPOLIA],
     controllerChains: [ChainSlug.REYA_CRONOS],
     hook: {
       hookType: Hooks.LIMIT_EXECUTION_HOOK,
@@ -109,7 +109,7 @@ export const pc: ProjectConstants = {
     }
   },
   [Tokens.USDT]: {
-    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA],
+    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA, ChainSlug.SEPOLIA],
     controllerChains: [ChainSlug.REYA_CRONOS],
     hook: {
       hookType: Hooks.LIMIT_EXECUTION_HOOK,
@@ -142,7 +142,7 @@ export const pc: ProjectConstants = {
     }
   },
   [Tokens.DAI]: {
-    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA],
+    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA, ChainSlug.SEPOLIA],
     controllerChains: [ChainSlug.REYA_CRONOS],
     hook: {
       hookType: Hooks.LIMIT_EXECUTION_HOOK,
@@ -175,7 +175,7 @@ export const pc: ProjectConstants = {
     }
   },
   [Tokens.WSTETH]: {
-    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA],
+    vaultChains: [ChainSlug.ARBITRUM_SEPOLIA, ChainSlug.OPTIMISM_SEPOLIA, ChainSlug.SEPOLIA],
     controllerChains: [ChainSlug.REYA_CRONOS],
     hook: {
       hookType: Hooks.LIMIT_EXECUTION_HOOK,
