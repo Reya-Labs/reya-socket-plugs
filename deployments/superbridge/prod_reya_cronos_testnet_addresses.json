@@ -71,6 +71,18 @@
           "FAST": "0x2b1209A86E66f0eB711A1817FAce618362A30578"
         }
       }
+    },
+    "USDE": {
+      "isAppChain": false,
+      "NonMintableToken": "0xDca6971c26fDEE0536Fdff076D063643f7810621",
+      "Vault": "0x8F0968C412ef75e4Fbf3fd9E6dE70eA3d961ff42",
+      "ExecutionHelper": "0x1aFC021Bb6971573AFD18a1Be2113ef30D259c5E",
+      "LimitExecutionHook": "0x11D607DC095c2a759609bD5de2C4476536cE8314",
+      "connectors": {
+        "89346162": {
+          "FAST": "0x803164a84698bF52D3A87109b237fB687A4e0DA2"
+        }
+      }
     }
   },
   "11155111": {
@@ -145,6 +157,18 @@
           "FAST": "0xD382E2F0dF859ff9E82F963dcad1Aaee939c5E4F"
         }
       }
+    },
+    "USDE": {
+      "isAppChain": false,
+      "NonMintableToken": "0xDca6971c26fDEE0536Fdff076D063643f7810621",
+      "Vault": "0x860cF48d45fD8F3AC01579848BaB5F9A9DE65A05",
+      "ExecutionHelper": "0xFF4b9E5E4A764472c4b1229390E076Fb936F6e2C",
+      "LimitExecutionHook": "0x1d683c9500d8d1e119BA2233Fd13a1D52aD8eFb5",
+      "connectors": {
+        "89346162": {
+          "FAST": "0x37BBfc873c0D9cd820f3FdB29EcDB6861910A29a"
+        }
+      }
     }
   },
   "11155420": {
@@ -217,6 +241,18 @@
       "connectors": {
         "89346162": {
           "FAST": "0x1607b61d42124B422C337d1f8916331fC78c9Fe0"
+        }
+      }
+    },
+    "USDE": {
+      "isAppChain": false,
+      "NonMintableToken": "0xDca6971c26fDEE0536Fdff076D063643f7810621",
+      "Vault": "0x4A2932b973921ab6Bc99011BC3381087719e5965",
+      "ExecutionHelper": "0xaee837faB8f07e1777cED6b3e3aE669B374A27b9",
+      "LimitExecutionHook": "0x0ec5C1A6fD40c1e226C75256878166ab1d47804E",
+      "connectors": {
+        "89346162": {
+          "FAST": "0xb733c62dF92fDE91Fb27BBda37d872FADa03E2C9"
         }
       }
     }
@@ -327,6 +363,24 @@
         },
         "11155420": {
           "FAST": "0x5BD8C70073575F30E060c4751672A3d462CdAc8a"
+        }
+      }
+    },
+    "USDE": {
+      "isAppChain": true,
+      "MintableToken": "0xDca6971c26fDEE0536Fdff076D063643f7810621",
+      "Controller": "0x9f1f05Be3A595C93B604a8d5582B6ba8ED057b74",
+      "ExecutionHelper": "0xFEe7b6deAF61D2b04F6e05c80c2593BF29706410",
+      "LimitExecutionHook": "0x6C2921BF0f1E06a89F7Eb56c69Cb2a4f23A3Bb18",
+      "connectors": {
+        "421614": {
+          "FAST": "0x4F0A10029d1A7b2266773F598C26E67792320c94"
+        },
+        "11155111": {
+          "FAST": "0x6c28616D6bBF8aa79b87C97509f97Af3F362f329"
+        },
+        "11155420": {
+          "FAST": "0x0B5e406e7F6BaB8Cf205bC583a0504135b11D6bB"
         }
       }
     }
