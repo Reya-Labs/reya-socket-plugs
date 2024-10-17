@@ -19,4 +19,6 @@ export enum Tokens {
   STIME = "STIME",
   USDE = "USDE",
   SUSDE = "SUSDE",
+  DEUSD = "DEUSD",
+  SDEUSD = "SDEUSD",
 }

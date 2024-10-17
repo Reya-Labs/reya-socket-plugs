@@ -272,6 +272,72 @@ export const pc: ProjectConstants = {
         }
       }
     }
+  },
+  [Tokens.DEUSD]: {
+    vaultChains: [ChainSlug.SEPOLIA],
+    controllerChains: [ChainSlug.REYA_CRONOS],
+    hook: {
+      hookType: Hooks.LIMIT_EXECUTION_HOOK,
+      limitsAndPoolId: {
+        [ChainSlug.ARBITRUM_SEPOLIA]: {
+          [IntegrationTypes.fast]: {
+            sendingLimit: "1000000",
+            receivingLimit: "1000000"
+          }
+        },
+        [ChainSlug.SEPOLIA]: {
+          [IntegrationTypes.fast]: {
+            sendingLimit: "1000000",
+            receivingLimit: "1000000"
+          }
+        },
+        [ChainSlug.OPTIMISM_SEPOLIA]: {
+          [IntegrationTypes.fast]: {
+            sendingLimit: "1000000",
+            receivingLimit: "1000000"
+          }
+        },
+        [ChainSlug.REYA_CRONOS]: {
+          [IntegrationTypes.fast]: {
+            sendingLimit: "1000000",
+            receivingLimit: "1000000"
+          }
+        }
+      }
+    }
+  },
+  [Tokens.SDEUSD]: {
+    vaultChains: [ChainSlug.SEPOLIA],
+    controllerChains: [ChainSlug.REYA_CRONOS],
+    hook: {
+      hookType: Hooks.LIMIT_EXECUTION_HOOK,
+      limitsAndPoolId: {
+        [ChainSlug.ARBITRUM_SEPOLIA]: {
+          [IntegrationTypes.fast]: {
+            sendingLimit: "1000000",
+            receivingLimit: "1000000"
+          }
+        },
+        [ChainSlug.SEPOLIA]: {
+          [IntegrationTypes.fast]: {
+            sendingLimit: "1000000",
+            receivingLimit: "1000000"
+          }
+        },
+        [ChainSlug.OPTIMISM_SEPOLIA]: {
+          [IntegrationTypes.fast]: {
+            sendingLimit: "1000000",
+            receivingLimit: "1000000"
+          }
+        },
+        [ChainSlug.REYA_CRONOS]: {
+          [IntegrationTypes.fast]: {
+            sendingLimit: "1000000",
+            receivingLimit: "1000000"
+          }
+        }
+      }
+    }
   }
 }
 };
